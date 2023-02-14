@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Pipeforge | CI/CD Made Easy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     <style>
       body {
@@ -18,24 +19,37 @@
         font-weight: bold;
         text-align: center;
         margin-top: 50px;
+        text-shadow: 2px 2px #ddd;
       }
       p {
         margin: 25px 0;
         text-align: center;
+        color: #666;
       }
       a {
         color: #00bfff;
         text-decoration: none;
         transition: color 0.3s ease;
+        font-weight: bold;
+        text-transform: uppercase;
       }
       a:hover {
         color: #0077b3;
       }
+      @media screen and (max-width: 600px) {
+        h1 {
+          font-size: 36px;
+          margin-top: 25px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
     </style>
   </head>
   <body>
-    <h1>Welcome to Pipeforge</h1>
-    <p>We're working hard to make continuous integration and delivery seriously easy for developers.</p>
+    <h1>CI/CD Made Easy</h1>
+    <p>At Pipeforge, we're dedicated to making the development process seamless and effortless.</p>
     <p>Stay tuned for updates and more information on our products and services.</p>
     <p>In the meantime, you can follow us on <a href="https://twitter.com/pipeforgedev">Twitter</a> for the latest news and updates.</p>
   </body>
